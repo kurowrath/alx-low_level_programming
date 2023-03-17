@@ -14,10 +14,10 @@ int main(void)
 
 	while (dec <= 15)
 	{
-		sprintf(hex,"%x",dec);
+		sprintf(hex, "%x", dec);
 		printf("%s", hex);
 		dec++;
 	}
 	putchar('\n');
-return (0);	
+return (0);
 }
