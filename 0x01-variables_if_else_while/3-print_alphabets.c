@@ -12,7 +12,8 @@
 int main(void)
 {
 	char c = 'a';
-
+        char cu = 'A';
+        
 	while (c <= 'z')
 	{
 		putchar(c);
@@ -20,15 +21,11 @@ int main(void)
 	}
 	putchar('\n');
 
-        	char cu = 'A';
-
 	while (cu <= 'Z')
 	{
 		putchar(cu);
 		cu++;
 	}
 	putchar('\n');
-	
-	
 return (0);
 }
