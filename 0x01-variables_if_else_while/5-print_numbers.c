@@ -2,9 +2,9 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Description: printing single digits 0-10
- * 
+ *
  * Return: Always 0 (Success)
 */
 
@@ -14,7 +14,7 @@ int main(void)
 
 	while (dj <= 9)
 	{
-		printf("%d",dj);
+		printf("%d", dj);
 		dj++;
 	}
 	putchar('\n');
