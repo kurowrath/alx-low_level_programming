@@ -16,6 +16,6 @@ int main(void)
 		putchar((char)dj);
 		dj++;
 	}
-	putchar('\n')
+	putchar('\n');
 return (0);
 }
