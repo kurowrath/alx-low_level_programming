@@ -3,15 +3,15 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Description: a program that prints alphabet lowercase excep'q' and 'e'
- * 
+ *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-        char c = 'a';
+     char c = 'a';
 
         while (c <= 'z')
         {
