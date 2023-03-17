@@ -13,13 +13,12 @@ int main(void)
 {
 	char c = 'a';
         char cu = 'A';
-        
+
 	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
 	}
-	putchar('\n');
 
 	while (cu <= 'Z')
 	{
