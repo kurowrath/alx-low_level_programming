@@ -12,18 +12,17 @@
 int main(void)
 {
 	char c = 'a';
-        char cu = 'A';
+	char cup = 'A';
 
 	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
 	}
-
-	while (cu <= 'Z')
+	while (cup <= 'Z')
 	{
-		putchar(cu);
-		cu++;
+		putchar(cup);
+		cup++;
 	}
 	putchar('\n');
 return (0);
