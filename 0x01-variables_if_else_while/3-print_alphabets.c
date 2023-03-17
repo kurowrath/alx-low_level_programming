@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: printing lowercase alphabet
+ * Description: printing lowercase alphabet and uppercase alphabet
  *
  * Return: Always 0 (Success)
 */
@@ -19,6 +19,16 @@ int main(void)
 		c++;
 	}
 	putchar('\n');
+
+        	char cu = 'A';
+
+	while (cu <= 'Z')
+	{
+		putchar(cu);
+		cu++;
+	}
+	putchar('\n');
+	
 	
 return (0);
 }
