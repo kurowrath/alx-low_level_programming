@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  _isalpha - check if character is alpha
+ * _isalpha - check if character is alpha
  *
  * @c: checks input of a function
  *
@@ -9,7 +9,7 @@
 
 int _isalpha(int c)
 {
-	if ((c >= 48 && c <= 5) || (c >= 97 && c <= 122))
+	if ((c >= 48 && c <= 5) && (c >= 97 && c <= 122))
 	{
 		return (1);
 	}
