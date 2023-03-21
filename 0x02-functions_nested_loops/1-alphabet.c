@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point 
+ * 
  *
- * Description :  printing alphabets
+ * Print alphabet - prints alphabets using function _putchar
  *
- * Return: Always 0 (Success)
+ * 
 */
 
 void print_alphabet(void)
@@ -15,4 +15,5 @@ void print_alphabet(void)
 	{
 		_putchar(a);
 	}
+	_putchar('\n');
 }
