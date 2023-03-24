@@ -3,7 +3,7 @@
 /**
  *print_numbers - print from 0 - 9 
  *		only using _putchar 2 times
- *Return: Always 0(Success)
+ *Return: Always 0 (Success)
 */
 
 void print_numbers(void)
