@@ -3,9 +3,9 @@
 /**
  * _isdigit - check id c is digit
  *
- * @c: input for alphabet
+ * @c: input
  *
- * Return: 1 if its uppercase, 0 if not
+ * Return: 1 if its digit, 0 if not
 */
 
 int _isupper(int c)
