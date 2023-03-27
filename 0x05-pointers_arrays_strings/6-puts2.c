@@ -12,9 +12,13 @@
 void puts2(char *str)
 {
 	int i;
-		for (i = 0 ; i < sizeof(*str)/sizeof(*str[0]); i++)
+
+	for (i = 0 ; str[i] != '\0' ; ++i)
 	{
-		printf("%lf\n",*str[i]);
+		if (i % 2 == 0)
+			_putchar(str[i]);
 	}
+	_putchar('\n');
+	
 }
 
