@@ -11,7 +11,8 @@
 
 void puts2(char *str)
 {
-		for (int i = 0 ; i < sizeof(*str)/sizeof(*str[0]); i++)
+	int i;
+		for (i = 0 ; i < sizeof(*str)/sizeof(*str[0]); i++)
 	{
 		printf("%lf\n",*str[i]);
 	}
