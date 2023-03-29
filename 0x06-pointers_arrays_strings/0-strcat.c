@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * _strcat - appends the src string to the dest string,
- *	overwriting the terminating null byte (\0) at the
- *	end of dest, and then adds a terminating null byte.
+ * _strcat - concatenates two strings.
  *
- *@dest: pointer destination input
- *@src: pointer source input
+ * @dest: input
+ * @src: input
  *
- *Return: pointer de result dtr @dest
-*/
+ * Return: pointer to result
+ */
+
 
 char *_strcat(char *dest, char *src)
 {
@@ -25,3 +24,4 @@ char *_strcat(char *dest, char *src)
 		dest[c++] = src[c2];
 	return(dest);
 }
+
